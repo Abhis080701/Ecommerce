@@ -1,0 +1,20 @@
+@charset "UTF-8";
+ #searchlist {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        background-color: #f1f1f1;
+      }
+      #search-data a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+ 
+      /* Change the link color on hover */
+      #search-data a:hover {
+        background-color: #ce5c00;
+        color: #fff;
+      }
